@@ -1,0 +1,21 @@
+{
+  "name": "cotacao_criptomoedas_nodejs",
+  "version": "1.0.0",
+  "description": "Projeto de cotacao de criptomoedas feito em Node.js + Mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Kymberlly Melo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
