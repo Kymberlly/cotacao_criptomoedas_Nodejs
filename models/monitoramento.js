@@ -1,5 +1,6 @@
 const axios = require('axios');
 const Candlestick = require('./candlestick.js');
+const repositorio = require('../repositorio/monitoramento.js');
 
 class Monitoramento{
 
@@ -32,7 +33,7 @@ class Monitoramento{
         }
 
         Candlestick.valorFinal = valorRecenteMoeda;
-        //TODO: Salvar candlestick no Mysql
+        return repositorio.adiciona(Candlestick);
     }
 
 }

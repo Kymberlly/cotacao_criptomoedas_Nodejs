@@ -7,13 +7,8 @@ module.exports = app => {
         const periodoObservacao = parseInt(periodo);
 
         Monitoramento.observador(periodoObservacao, moeda)
-        .then(resultado => {
-            const frase = 'Ok.'
-            res.json({frase});
-        })
-        .catch(erro => {
-            res.status(400).json({erro})
-        });
+        .then(resultado => res.json(resultado))
+        .catch(erro => res.status(400).json({erro}));
     });
 
 };
