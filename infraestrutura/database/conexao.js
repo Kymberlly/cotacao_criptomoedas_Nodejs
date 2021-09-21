@@ -1,7 +1,7 @@
 const mysql = require('mysql2');
 
 const conexao = mysql.createConnection({
-    host: 'localhost',
+    host: 'mysql',
     user: 'root',
     password: 'admin',
     database: 'Criptomoedas',
