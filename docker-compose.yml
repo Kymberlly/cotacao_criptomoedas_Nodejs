@@ -1,0 +1,21 @@
+version: "3.0"
+services:
+  application:
+    image: node_my:1.0.0
+    ports:
+      - "3000:3000"
+    networks:
+      - rede-local
+    depends_on:
+      - mysql
+  mysql:
+    image: mysql:latest
+    networks:
+      - rede-local
+    environment:
+      MYSQL_ROOT_PASSWORD: "admin"
+      MYSQL_DATABASE: "Criptomoedas"
+
+networks:
+  rede-local:
+    driver: bridge
