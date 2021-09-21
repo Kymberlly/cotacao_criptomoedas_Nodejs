@@ -27,7 +27,7 @@ Caso a imagem tenha sido criada, a mesma deverá estar presente na lista de imag
 docker-compose up -d
 ```
 
-Através deste comando a aplicação estará disponível no endereço [localhost:3000](https://localhost:3000).
+Através deste comando a aplicação estará disponível no endereço [localhost:3000](localhost:3000).
 
 
 Caso queira finalizar a aplicação basta digitar no terminal ou cmd o seguinte comando:
