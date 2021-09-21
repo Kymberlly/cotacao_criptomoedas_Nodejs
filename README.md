@@ -1,5 +1,7 @@
 # API Cotação de Criptomoedas
 
+![image](https://user-images.githubusercontent.com/29280061/134231090-f9a1e00e-de82-4d2e-b8db-4cd889212778.png)
+
 
 ### Gerando a imagem Docker do projeto localmente
 O arquivo Dockerfile possui todas as configurações necessárias para que seja realizado o build da aplicação.
