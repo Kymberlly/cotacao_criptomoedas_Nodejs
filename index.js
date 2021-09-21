@@ -4,7 +4,7 @@ const conexao = require('./infraestrutura/database/conexao.js');
 
 
 conexao.connect(erro => {
-    if(erro){
+    if (erro) {
         console.log(`Erro ao conectar ao banco de dados. ${erro}`);
         return;
     }
